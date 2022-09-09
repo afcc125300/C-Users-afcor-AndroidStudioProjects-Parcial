@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="215dp"
+        android:layout_x="4dp"
+        android:layout_y="0dp"
+        android:background="#FFC107"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/Nombre1"
+            android:layout_width="164dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_horizontal"
+            android:layout_x="222dp"
+            android:layout_y="58dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name" />
+
+        <EditText
+            android:id="@+id/Nombre2"
+            android:layout_width="161dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|left"
+            android:layout_x="11dp"
+            android:layout_y="60dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name" />
+    </AbsoluteLayout>
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="253dp"
+        android:layout_x="2dp"
+        android:layout_y="481dp"
+        android:background="#9C27B0"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:layout_x="115dp"
+            android:layout_y="146dp"
+            android:text="Button3" />
+
+        <EditText
+            android:id="@+id/Nombre3"
+            android:layout_width="164dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_horizontal"
+            android:layout_x="137dp"
+            android:layout_y="58dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name" />
+    </AbsoluteLayout>
+
+    <AbsoluteLayout
+        android:layout_width="398dp"
+        android:layout_height="260dp"
+        android:layout_x="6dp"
+        android:layout_y="218dp"
+        android:background="#4861EF"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:layout_x="21dp"
+            android:layout_y="97dp"
+            android:gravity="center_horizontal|left"
+            android:text="Button1" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="158dp"
+            android:layout_height="wrap_content"
+            android:layout_x="222dp"
+            android:layout_y="98dp"
+            android:text="Button2" />
+    </AbsoluteLayout>
+</AbsoluteLayout>
